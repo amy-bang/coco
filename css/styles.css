@@ -1,0 +1,182 @@
+@import url('https://cdn.rawgit.com/innks/NanumSquareRound/master/nanumsquareround.min.css');
+
+#title {
+  text-align: left;
+}
+
+body {
+  font-family: 'NanumSquareRound', sans-serif;
+  text-align: center;
+}
+
+h2 {
+  color: #262626;
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+  font-weight: 800
+}
+
+h3 {
+  margin-bottom: 2rem;
+  line-height: 1.7;
+  font-size: 1.2rem;
+  font-weight: 300
+}
+
+p {
+  color: #676767;
+  line-height: 1.7;
+  font-size: 0.9rem;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* Sections */
+.colored-section {
+  background-color: #39B77D;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+  position: relative;
+  z-index: 1;
+}
+
+.navbar-brand {
+  font-family: 'NanumSquareRound';
+  font-size: 2rem;
+  font-weight: 800
+}
+
+.nav-item {
+  padding: 0 10px;
+}
+
+/* Download Buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title image */
+.coco-png {
+  right: 10%;
+  top: 2%;
+  transform: rotate(25deg);
+  position: absolute;
+  width: 50%
+}
+
+.title-bold {
+  font-size: 2.8rem;
+  line-height: 1.5;
+  font-weight: 400
+}
+
+/* Features Sections */
+#features {
+  padding: 7% 11%;
+  position: relative;
+  z-index: 1;
+}
+
+.feature-box {
+  padding: 2.5%;
+}
+
+.feature-png {
+  width: 4rem;
+  margin-bottom: 1rem;
+}
+
+.feature-png:hover {
+  opacity: 0.4;
+}
+
+/* Testimonials Section */
+#testimonials {
+  color: white;
+  padding: 7% 15%
+}
+
+.profile-png {
+  width: 10%;
+  border-radius: 100%;
+  margin: 30px 10px;
+}
+
+.carousel-item {
+  padding: 5% 30%;
+}
+
+#press {
+  padding-bottom: 3%
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* pricing */
+.pricing-title {
+  font-family: 'NanumSquareRound';
+  color: black;
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 700
+}
+
+#pricing {
+  padding: 100px;
+}
+
+.pricing-big {
+  font-family: 'NanumSquareRound';
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  font-size: 3rem;
+  font-weight: 800
+}
+
+.pricing-col {
+  padding: 10% 2% 5%;
+}
+
+/* CTA Section */
+.cta-title {
+  font-size: 2rem;
+  line-height: 1.5;
+  font-weight: 400
+}
+
+#cta {
+  color: white;
+  padding: 10% 16%;
+}
+
+/* footer section */
+#footer {
+  padding: 7% 15%;
+}
+
+.social-icon {
+  padding: 20px 10px;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .coco-png {
+    position: static;
+    transform: rotate(0);
+  }
